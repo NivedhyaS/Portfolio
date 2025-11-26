@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nivedhya S| Portfolio</title>
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        margin: 0;
+        background: linear-gradient(135deg, #000000, #1a1a1a, #0d0d0d);
+        background-attachment: fixed;
+        color: #e5e5e5;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 25px;
+    }
+
+    /* GLASS EFFECT BLOCKS */
+    section, header {
+        background: rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(10px);
+        padding: 40px;
+        border-radius: 16px;
+        margin-bottom: 35px;
+        border: 1px solid rgba(255,255,255,0.08);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    }
+
+    header {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    header h1 {
+        font-size: 2.8rem;
+        margin-bottom: 5px;
+        color: white;
+    }
+
+    header p {
+        margin: 6px 0;
+        font-size: 1.15rem;
+        opacity: 0.9;
+    }
+
+    /* NAVIGATION */
+    nav {
+        text-align: center;
+        margin: 35px 0;
+    }
+
+    nav a {
+        margin: 0 22px;
+        text-decoration: none;
+        color: #d1d1d1;
+        font-weight: 600;
+        font-size: 1.05rem;
+    }
+    nav a:hover { color: #00aaff; }
+
+    /* SECTION HEADINGS */
+    h2 {
+        font-size: 1.8rem;
+        margin-bottom: 18px;
+        color: #ffffff;
+    }
+
+    /* PROJECTS */
+    .project {
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        padding-bottom: 18px;
+        margin-bottom: 22px;
+    }
+
+    .project-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #00aaff;
+    }
+
+    /* BUTTON (LinkedIn + GitHub) */
+    .button {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+        padding: 12px 18px;
+        background: #00aaff;
+        color: black;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: 0.2s;
+    }
+
+    .button i { font-size: 1.2rem; }
+
+    .button:hover {
+        background: #008ecc;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 20px;
+        color: #cccccc;
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <header>
+        <h1>Nivedhya</h1>
+        <p>BSc Computer Science with Data Analytics</p>
+        <p>Rajagiri College of Social Sciences</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am <strong>Nivedhya</strong>, currently pursuing 
+            <strong>BSc Computer Science with Data Analytics</strong> at
+            <strong>Rajagiri College of Social Sciences</strong>.
+            I have a strong interest in programming, machine learning, and building practical applications.
+            I enjoy creating simple, efficient, and user-friendly projects.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Python Development</li>
+            <li>Java Programming</li>
+            <li>Machine Learning Basics</li>
+            <li>Data Analytics & Visualization</li>
+            <li>HTML & CSS</li>
+            <li>SQL & Database Concepts</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <div class="project-title">📊 Student Performance Prediction System</div>
+            <p>Machine learning model that predicts academic performance using student behaviour patterns and learning data.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-title">🚗 Car Price Prediction App</div>
+            <p>A regression-based app built using Streamlit to estimate car resale prices.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-title">🏠 House Price Prediction</div>
+            <p>Python ML model predicting house values using multiple real-estate features.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-title">⏱ Study Timer (Python)</div>
+            <p>A simple productivity tool that tracks study sessions and time spent using Python.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-title">👩‍💼 Employee Management System (Java)</div>
+            <p>Java application to store, update, search, and manage employee records.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-title">🌐 Personal Portfolio Website</div>
+            <p>A clean, glass-design HTML & CSS portfolio website made for showcasing skills and projects.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <strong>nivedhyas2006@gmail.com</strong></p>
+        <p>Phone: <strong>7907427370</strong></p>
+
+        <!-- LINKEDIN BUTTON -->
+        <a class="button" href="https://www.linkedin.com/in/nivedhya-s-2ba39231a" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+
+        <!-- GITHUB BUTTON -->
+        <a class="button" href="https://github.com/NivedhyaS-github" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+    </section>
+
+    <footer>
+        © 2025 • Portfolio by Nivedhya | Rajagiri College of Social Sciences
+    </footer>
+
+</div>
+
+</body>
+</html>
